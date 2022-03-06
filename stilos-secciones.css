@@ -1,0 +1,65 @@
+/*clases para estilos de secciones de paginas */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    background-color: rgba(255, 105, 180,0.6);
+    padding:0%;
+    border-radius: 100%;
+    top: 140px;
+    left: 40px
+}
+body{
+        margin: 0%;
+        padding: 0%;
+        background: linear-gradient(149deg, rgba(218,155,212,1) 0%, rgba(209,15,212,0.8295693277310925) 66%, rgba(0,212,255,1) 100%);
+    
+}
+.headerformulario{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seccioncuerpoprincipal{
+    height: 500px;
+    width: 100%;
+    font-family: cursive;
+    background-color:blue;
+
+}
+
+.tituloformulario{
+    text-align:justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    width: 700px;
+    margin-left: 300px;
+   
+}
+.formulario{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0%;
+    margin: 0%;
+}
+.divform{
+    right: 300px;
+    background-color:rgba(192, 52, 134, 0.541);
+    width: 700px;
+    border:5px solid rgba(59, 58, 58, 0.87)
+   
+}
+.claseparaformulario{
+    text-decoration: underline;
+    font-size: x-large;
+}
+input{
+    width:100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border:2px solid rgb(141, 15, 32)
+}
